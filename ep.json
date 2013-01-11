@@ -1,0 +1,11 @@
+{
+  "parts": [
+             {
+               "name": "ep_resizeChat",
+               "hooks": {
+                          "eejsBlock_styles" : "ep_resizeChat/index:eejsBlock_styles",
+                          "loadSettings" : "ep_resizeChat/index:loadSettings"
+                        }
+             }
+           ]
+}
