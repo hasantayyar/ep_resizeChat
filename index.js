@@ -25,6 +25,7 @@ exports.eejsBlock_styles = function (hook, context)
   resizeChat += '#chatbox\n{\n';
   resizeChat += 'width: ' + settings.normalWidth + ';\n';
   resizeChat += 'Height: ' + settings.normalHeight + ';\n}\n';
+  resizeChat += '#editorcontainerbox { left: 0px; right: 65px; width: auto; }'
   resizeChat += '</style>\n';
   
   context.content = context.content + resizeChat;
